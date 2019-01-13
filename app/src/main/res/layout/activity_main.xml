@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!--Website text-->
+    <EditText
+        android:id="@+id/website_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/button_uri"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <!--Website button-->
+    <Button
+        android:id="@+id/open_website_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openWebsite"
+        android:text="@string/button_uri"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <!--Location text-->
+    <EditText
+        android:id="@+id/location_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/location_button_text"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <!--Location button-->
+    <Button
+        android:id="@+id/open_location_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openLocation"
+        android:text="@string/location_button_text"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <!--Share text-->
+    <EditText
+        android:id="@+id/share_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/share_button_text"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <!--Share button-->
+    <Button
+        android:id="@+id/share_text_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="shareText"
+        android:text="@string/share_button_text"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <!--Take picture button-->
+
+    <!--Dialer text-->
+    <EditText
+        android:id="@+id/dialer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dialer_text"
+        android:imeOptions="actionSend"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/take_picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="takePicture"
+        android:text="@string/take_picture_button_text" />
+
+</LinearLayout>

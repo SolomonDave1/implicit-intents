@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Implicit Intents</string>
+    <string name="edittext_uri" />
+    <string name="button_uri">Open Website</string>
+    <string name="location_text" />
+    <string name="location_button_text">Open Location</string>
+    <string name="share_text" />
+    <string name="share_button_text">Share this</string>
+    <string name="take_picture_button_text">Take a picture</string>
+    <string name="error_message">Can\'t handle this action!</string>
+    <string name="display_dialer_button_text">Show Dialer</string>
+    <string name="dialer_text">Enter number to dial</string>
+</resources>
